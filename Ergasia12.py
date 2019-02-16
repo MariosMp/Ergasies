@@ -1,0 +1,1 @@
+import collectionsimport pprintarxeio = input('File Name: ')with open(arxeio, 'r') as info:  count = collections.Counter(info.read().upper())  value = pprint.pformat(count)print(value)x, y = max(count), min(count)print('Τις περισσότερες εμφανίσεις έχει το:',y,'ενώ τις λιγότερες το:' , x)x, y = y, xprint('αλλά μετά την αλαγγή το',y,' έχει τις εμφανίσεις του ', x)
